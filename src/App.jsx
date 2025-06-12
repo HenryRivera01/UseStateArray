@@ -1,14 +1,14 @@
-import { UseStateBasics } from './UseStateBasics'
-import './App.css'
+import { UseStateBasics } from "./UseStateBasics";
+import { ArrayUseState } from "./ArrayUseState";
+import "./App.css";
 
 function App() {
-
-
   return (
     <>
-      < UseStateBasics/>
+      <UseStateBasics />
+      <ArrayUseState />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
